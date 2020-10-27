@@ -44,7 +44,7 @@ def get_tweet_data(card):
 
 
 # global variables
-PATH = '/Users/jonassenghaas/programming/python/scrapers/webdrivers/chromedriver'
+PATH = '../webdrivers/chromedriver' # individual path to chromedriver
 
 
 # classes
