@@ -14,22 +14,23 @@ The Repository currently only contains code to scrape twitter data, but should b
 - [ ] Think of other platforms to scrape
 
 ## To Run
+### Libraries needed
+For the scripts to work you need some libraries. Most of them come pre-installed with python. The selenium library, which is primarily used for navigating the browser and scraping, needs to be installed, if it is not already:  
 
-For the scripts to work you need some libraries. most of them come pre-installed with python. the selenium library, which is primarily used for navigating the browser and scraping, needs to be installed, if it is not already:
 In shell type:
 `pip install selenium`
 
-To Run the Scripts:
-1. Jupyter Notebook (you need to install the jupyter package in order to work with .ipynb files): 
-In Shell Type:
-`jupyter notebook`
+### Running the Scripts
+1. Jupyter Notebook (you need to install the jupyter package in order to work with .ipynb files):  
+In Shell Type:  
+`jupyter notebook`  
 to start a temporary server to access the jupyter notebooks on your local machine. 
 
 In the automatically opened webbrowser, navigate to where the '.ipynb' file is located and open it. You should now be able to work with the Notebook.
 
-2. Script:
-Navigate to the directory your '.py' is located and type:
-`python twitter_scraper.py` *(ie. Twitter Scraper)*
+2. Script:  
+Navigate to the directory your '.py' is located and type:  
+`python twitter_scraper.py` *(ie. Twitter Scraper)*  
 to run the code. If you have all the necessary downloads, the code should work.
 
 ## Note!
